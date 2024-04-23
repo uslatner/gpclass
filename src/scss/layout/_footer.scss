@@ -1,0 +1,13 @@
+@use '../abstracts/' as *;
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: $primaryColor;
+}
+
+footer span {
+  color: $complementaryColor;
+  font-style: normal;
+  font-weight: 500;
+}

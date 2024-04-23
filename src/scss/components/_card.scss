@@ -1,0 +1,15 @@
+@use '../abstracts/' as *;
+
+.imgProjects {
+    height: auto;
+    width: 60%;
+    border: 4px solid $complementaryColor;
+}
+
+.nameProject {
+    font-weight: 800;
+}
+
+.textProject {
+    width: 30%;
+}

@@ -1,0 +1,62 @@
+@use '../abstracts/' as *;
+
+* {
+  color: $complementaryColor;
+}
+
+.container {
+  max-width: 1400px ;
+}
+
+body {
+  font-family: $primaryFont;
+  font-style: italic;
+  background: $primaryColor;
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.appContent {
+  margin: 1rem auto;
+  flex: 1;
+}
+
+.imgContact {
+  height: auto;
+  width: 35%;
+  border: 4px solid $complementaryColor;
+}
+
+.textContact {
+  width: 100%;
+}
+
+.titleContact {
+  font-size: 24px;
+  margin-bottom: 0px !important;
+}
+
+.contentContact {
+  color: $complementaryColor;
+  font-weight: 900;
+  font-size: 1.75rem;
+  margin-left: 2rem;
+  padding: 0px;
+  color: $complementaryColor;
+}
+
+.social-link {
+  height: 50px !important;
+  margin: 5px 10px;
+}
+
+.fade-in.loaded {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
