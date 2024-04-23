@@ -11,7 +11,7 @@ import './scss/main.scss';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/gpclass">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
