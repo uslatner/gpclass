@@ -11,7 +11,8 @@
 body {
   font-family: $primaryFont;
   font-style: italic;
-  background: $primaryColor;
+  background: rgb(166,189,231);
+  background: linear-gradient(6deg, rgba(166,189,231,1) 18%, rgba(249,252,255,1) 100%);
   box-sizing: border-box;
 }
 
